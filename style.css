@@ -1,0 +1,799 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    z-index: 50;
+    background-color: #00A165;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sup{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.head-secssion{
+    
+    min-width: 100%;
+    height: 650px;
+    
+    
+
+}
+.head-secssion-l{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 28%;
+    height: 300px;
+   
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.head-secssion-r{
+   
+    width: 72%;
+    height: 650px;
+   
+    float: left;
+    background-image: url(images/first7up.png);
+    background-size: cover;
+}
+
+.head-secssion-l h2{
+    color: #00A165;
+    font-weight: 700;
+    align-self: center;
+    display: block;
+    text-align: center;
+}
+
+#btn1{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    color: #00A165;
+    border: 4px solid #00A165;
+    font-weight: 700;
+    font-size: larger;
+    align-self: center;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+#btn1:hover{
+    background-color: #00A165;
+    color: white;
+}
+.img1{
+    height: 350px;
+    width: 350px;
+}
+.banner{
+    background-color: #00A165;
+    width: 100%;
+    
+    
+    
+}
+.banner-l{
+   width: 50%;
+   float: left;
+   background-color: #00A165;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.banner-l-let{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-r{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.banner-r img{
+    width: 100%;
+    height: 600px;
+}
+
+.h-1{
+    font-size: 50px;
+    color: white;
+}
+.h-2{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+#btn2{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    color: #00A165;
+    border: 4px solid #00A165;
+    font-weight: 700;
+    font-size: larger;
+    align-self: center;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+#btn2:hover{
+    background-color: #00A165;
+    color: white;
+}
+.banner-2{
+  background-image: url(images/2nd\ banner.jpg);
+  background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#btn3{
+    background-color: #fe5887;
+    width: 400px;
+    height: 100px;
+    
+    color: white;
+    border: 4px solid #fe5887;
+    font-weight: 700;
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+.banner-3{
+    background-image: url(images/cooking.webp);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #btn4{
+    background-color: #6ba13f;
+    width: 400px;
+    height: 100px;
+    
+    color: white;
+    border: 4px solid #6ba13f;
+    font-weight: 700;
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+.banner-4{
+    background-image: url(images/ICES.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #btn5{
+    background-color: #c064ac;
+    width: 400px;
+    height: 100px;
+    
+    color: white;
+    border: 4px solid #c064ac;
+    font-weight: 700;
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    padding: 6px 0 6px 0;
+    
+}
+.banner-5{
+    width: 100%;
+    position: relative;
+    
+}
+.banner-5-l{
+    width: 50%;
+    float: left;
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 9.3%;
+}
+.img3{
+    width: 90%;
+}
+.banner-5-r{
+    width: 50%;
+    float: left;
+    background-color: #ddd;
+    padding-top: 7%;
+    padding-left: 6%;
+    
+}
+.h-3{
+    font-size: 70px;
+    font-weight: 700;
+    color: #00A165;
+    text-align: center;
+}
+#span1{
+    color: red;
+}
+.h-4{
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+.img2{
+    width: 70%;
+    height: 33%;
+}
+.footer{
+    position: relative;
+    background-image: url(images/footer-bg.webp);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    top: 725px;
+}
+.fl1{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    float: left;
+    
+}
+#btn6{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    background-color: red;
+    border: none;
+    transform: rotate(-29deg);
+    top: 30%;
+    left: 50%;
+}
+.h-5{
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    
+}
+.fl2{
+    position: relative;
+    width: 85%;
+    left: 7.5%;
+    height: 20%;
+  background-color: rgba(255,255,255,.75);
+  top: 525px;
+ 
+    
+}
+.fl2-1{
+    position: absolute;
+    width: 98%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 5%;
+    flex-wrap: nowrap;
+    
+}
+.social{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+}
+.f12-2{
+    position: relative;
+    width: 98%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 40px
+}
+.ftext{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social li{
+    margin-left: 3px;
+}
+.ftext li{
+     font-size: small;
+    margin-left: 8px;
+}
+.f12-3{
+    position: relative;
+    top: -90px;
+}
+
+.copy{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    align-self: center;
+}
+  
+
+
+
+@media(max-width:576px){
+    .head-secssion-l{
+        width: 100%;
+    }
+    .head-secssion-r{
+        width: 100%;
+        height: 400px;
+    }
+    .img1{
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+    .head-secssion-l h2{
+        font-size: 12px;
+    }
+    .head-secssion-l h2{
+        font-size: 17px;
+    }
+    #btn1{
+        width: 140px;
+        font-size: small;
+    }
+    .banner-r img{
+        height: 300px;
+    }
+    .banner-l{
+        height: 300px;
+    }
+    .h-1{
+        font-size: 25px;
+    }
+    .h-2{
+        font-size: 13px;
+    }
+   
+    .banner-2{
+        top: 200px;
+        height: 350px;
+       
+    }
+    .banner-3{
+        height: 350px;
+        top: 200px;
+    }
+    #btn2{
+        width: 100px;
+        height: 40px;
+        font-weight: 500;
+        font-size: medium;
+        padding: 0px 0 0px 0;
+    }
+    #btn3{
+        width: 250px;
+        height: 75px;
+       font-weight: 500;
+        font-size: 20px;
+        padding: px 0 3px 0;
+    }
+    #btn4{
+        width: 250px;
+        height: 75px;
+       font-weight: 500;
+        font-size: 20px;
+        padding: 3px 0 3px 0;
+    }
+    #btn5{
+        width: 250px;
+        height: 75px;
+       font-weight: 500;
+        font-size: 20px;
+        padding: 3px 0 3px 0;
+    }
+    .banner-4{
+        height: 350px;
+        top: 200px;
+    }
+    .banner-5{
+        top: 190px;
+    }
+    .banner-5-l{
+        padding: 0% 0% 0% 0%;
+        
+      }
+      .banner-5-r{
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      }
+      .h-3{
+          font-size: 28px;
+      }
+      .footer{
+        width: 100%;
+        height: 550px;
+        top: 950px;
+    }
+    #btn6{
+        position: relative;
+        width: 25%;
+        height: 17%;
+        background-color: red;
+        border: none;
+        transform: rotate(-29deg);
+        top: 25%;
+        left: 50%;
+    }
+    .h-5{
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        
+    }
+    .fl2{
+        position: relative;
+        width: 85%;
+        left: 7.5%;
+        height: 30%;
+      background-color: rgba(255,255,255,.75);
+      top: 320px;
+     
+        
+    }
+    .fl2-1{
+        position: absolute;
+        width: 98%;
+        height: 33%;
+        display: flex;
+        justify-content: center;
+        float: left;
+        margin-top: 15%;
+        flex-wrap: nowrap;
+        
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    .head-secssion-r{
+        width: 72%;
+        height: 350px;
+    }
+    .img1{
+        width: 175px;
+        height: 175px;
+    }
+    .head-secssion-l h2{
+        font-size: 15px;
+    }
+    .head-secssion-l h2{
+        font-size: 20px;
+    }
+    #btn1{
+        width: 140px;
+        font-size: medium;
+    }
+    .head-secssion{
+        height: 350px;
+    }
+    .banner-r img{
+        height: 250px;
+    }
+    .banner-l{
+        height: 250px;
+    }
+    .h-1{
+        font-size: 25px;
+    }
+    .h-2{
+        font-size: 13px;
+    }
+    #btn2{
+        width: 100px;
+        height: 40px;
+        font-weight: 500;
+        font-size: medium;
+        align-self: center;
+        display: block;
+        padding: 0px 0 0px 0;
+    }
+    .banner-2{
+        margin-top: 250px;
+        height: 400px;
+    }
+    .banner-3{
+        height: 400px;
+    }
+    .banner-4{
+        height: 400px;
+    }
+    #btn3{
+        width: 300px;
+        height: 85px;
+       font-weight: 500;
+        font-size: 25px;
+        padding: px 0 3px 0;
+    }
+    #btn4{
+        width: 300px;
+        height: 85px;
+       font-weight: 500;
+        font-size: 25px;
+        padding: 3px 0 3px 0;
+    }
+    #btn5{
+        width: 300px;
+        height: 85px;
+       font-weight: 500;
+        font-size: 25px;
+        padding: 3px 0 3px 0;
+    }
+    .banner-5-l{
+      padding: 0% 0% 0% 0%;
+      
+    }
+    .banner-5-r{
+      padding: 0%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .h-3{
+        font-size: 35px;
+    }
+    .footer{
+        width: 100%;
+        height: 650px;
+        top: 980px;
+    }
+    #btn6{
+        position: relative;
+        width: 25%;
+        height: 17%;
+        background-color: red;
+        border: none;
+        transform: rotate(-29deg);
+        top: 25%;
+        left: 50%;
+    }
+    .h-5{
+        font-weight: 600;
+        font-size: 21px;
+        color: white;
+        
+    }
+    .fl2-1{
+        position: absolute;
+        width: 98%;
+        height: 33%;
+        display: flex;
+        justify-content: center;
+        float: left;
+        margin-top: 10%;
+        flex-wrap: nowrap;
+        
+    }
+    
+    
+    
+   
+       
+    
+}
+@media(min-width:768px) and (max-width:992px){
+    .head-secssion-r{
+        width: 72%;
+        height: 450px;
+    }
+    .img1{
+        width: 225px;
+        height: 225px;
+    }
+    .head-secssion-l h2{
+        font-size: 20px;
+    }
+    #btn1{
+        width: 140px;
+        font-size: medium;
+    }
+    .head-secssion{
+        height: 450px;
+    }
+    .banner-r img{
+        height: 350px;
+    }
+    .banner-l{
+        height: 350px;
+    }
+    .h-1{
+        font-size: 25px;
+    }
+    .h-2{
+        font-size: 13px;
+    }
+    #btn2{
+        width: 100px;
+        height: 40px;
+        font-weight: 500;
+        font-size: medium;
+        align-self: center;
+        display: block;
+        padding: 0px 0 0px 0;
+    }
+    .banner-2{
+        margin-top: 350px;
+        height: 450px;
+    }
+    .banner-3{
+        height: 450px;
+    }
+    .banner-4{
+        height: 450px;
+    }
+    .h-3{
+        font-size: 45px;
+    }
+    .footer{
+        width: 100%;
+        height: 750px;
+        top: 530px;
+    }
+    #btn6{
+        position: relative;
+        width: 25%;
+        height: 17%;
+        background-color: red;
+        border: none;
+        transform: rotate(-29deg);
+        top: 25%;
+        left: 60%;
+    }
+    .h-5{
+        font-weight: 600;
+        font-size: 25px;
+        color: white;
+        
+    }
+    .fl2{
+        position: relative;
+        width: 85%;
+        left: 8%;
+        height: 20%;
+      background-color: rgba(255,255,255,.75);
+      top: 525px;
+     
+        
+    }
+    .fl2-1{
+        margin-top: 8%;
+    }
+   
+ }
+    
+
+@media(min-width:992px) and (max-width:1200px){
+    .head-secssion-r{
+        width: 72%;
+        height: 550px;
+    }
+    .img1{
+        width: 300px;
+        height: 300px;
+    }
+    .head-secssion{
+        height: 550px;
+    }
+    .banner-r img{
+        height: 450px;
+    }
+    .banner-l{
+        height: 450px;
+    }
+    .banner-2{
+        height: 500px;
+        margin-top: 450px;
+    }
+    .banner-3{
+        height: 500px;
+        
+    }
+    .banner-4{
+        height: 500px;
+    }
+    .h-3{
+        font-size: 55px;
+    }
+    .footer{
+        background-image: url(images/footer-bg.webp);
+        background-size: cover;
+        width: 100%;
+        height: 750px;
+        margin-top: 650px;
+        
+    }
+    .footer{
+        width: 100%;
+        height: 750px;
+        top: 0px;
+    }
+    #btn6{
+        position: relative;
+        width: 30%;
+        height: 20%;
+        background-color: red;
+        border: none;
+        transform: rotate(-29deg);
+        top: 25%;
+        left: 60%;
+    }
+    .h-5{
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+        
+    }
+    .fl2{
+        position: relative;
+        width: 85%;
+        left: 10%;
+        height: 20%;
+      background-color: rgba(255,255,255,.75);
+      top: 525px;
+     
+        
+    }
+ }
+@media (min-width:1200px){
+    .head-secssion-r{
+        width: 72%;
+        height: 650px;
+    }
+    .banner-2{
+        background-image: url(images/2nd\ banner.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+        margin-top: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .banner-3{
+        background-image: url(images/cooking.webp);
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .banner-4{
+        background-image: url(images/ICES.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+}
