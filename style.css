@@ -433,7 +433,7 @@
       .footer{
         width: 100%;
         height: 550px;
-        top: 950px;
+        top: 850px;
     }
     #btn6{
         position: relative;
@@ -444,6 +444,7 @@
         transform: rotate(-29deg);
         top: 25%;
         left: 50%;
+        font-size: 10px;
     }
     .h-5{
         font-weight: 600;
@@ -455,7 +456,7 @@
         position: relative;
         width: 85%;
         left: 7.5%;
-        height: 30%;
+        height: 40%;
       background-color: rgba(255,255,255,.75);
       top: 320px;
      
@@ -468,7 +469,7 @@
         display: flex;
         justify-content: center;
         float: left;
-        margin-top: 15%;
+        margin-top: 38%;
         flex-wrap: nowrap;
         
     }
